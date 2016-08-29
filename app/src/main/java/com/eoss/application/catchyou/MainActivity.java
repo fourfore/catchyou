@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         } else {
-            ParseUser parseUser = new ParseUser();
-            if (parseUser != null) {
+
+            if (ParseUser.getCurrentUser() != null) {
                 Intent intent = new Intent(MainActivity.this, AppActivity.class);
                 startActivity(intent);
                 finish();
