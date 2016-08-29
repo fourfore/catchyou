@@ -1,0 +1,11 @@
+<tabs>
+    <tab
+        id="@+id/tab_near"
+        title="Near By You" />
+    <tab
+        id="@+id/tab_profile"
+        title="Profile" />
+    <tab
+        id="@+id/tab_setting"
+        title="Setting" />
+</tabs>
